@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 const { Schema } = mongoose;
 
 const genresSchema = new Schema({
-  nameGenres: { type: String, maxLength: 100 },
+  nameGenres: { type: String, maxLength: 30 },
   description: { type: String, maxLength: 600 },
 });
 
